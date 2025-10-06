@@ -1,1 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mudskipper – Compliance for Logistics Industry</title>
+  <style>
+    /* Base Reset */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: #1b1f23;
+      background: #f6f8fa;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #cf222e;
+      text-decoration: none;
+    }
+
+    a:hover, a:focus {
+      text-decoration: underline;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 4rem 2rem 3rem;
+      border-bottom: 1px solid #d0d7de;
+      text-align: center;
+    }
+
+    header h1 {
+      font-weight: 600;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #1b1f23;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      color: #57606a;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .section-title {
+      font-weight: 600;
+      font-size: 1.75rem;
+      color: #1b1f23;
+      border-bottom: 2px solid #cf222e;
+      padding-bottom: 0.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .feature-card {
+      background: #ffffff;
+      border-radius: 6px;
+      padding: 1.5rem;
+      border: 1px solid #d0d7de;
+      box-shadow: 0 1px 3px rgba(27, 31, 35, 0.05);
+    }
+
+    .feature-card h3 {
+      margin-top: 0;
+      color: #cf222e;
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .feature-card p {
+      margin: 0;
+      color: #57606a;
+      font-size: 1rem;
+    }
+
+    form {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 6px;
+      border: 1px solid #d0d7de;
+      box-shadow: 0 1px 3px rgba(27, 31, 35, 0.05);
+      max-width: 600px;
+      margin: 0 auto 4rem;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #1b1f23;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form select,
+    form textarea {
+      width: 100%;
+      padding: 0.5rem 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-family: inherit;
+      color: #1b1f23;
+      background-color: #f6f8fa;
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    form button {
+      background-color: #cf222e;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 0.75rem 1.25rem;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    form button:hover,
+    form button:focus {
+      background-color: #a0151f;
+      outline: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.875rem;
+      color: #57606a;
+      border-top: 1px solid #d0d7de;
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mudskipper</h1>
+    <p>Your trusted compliance platform for shipping, cargo, and trucking logistics.</p>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2 class="section-title">Why Mudskipper?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Regulatory Compliance</h3>
+          <p>Ensure adherence to DOT, FMCSA, OSHA, and customs regulations with automated monitoring.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Audit Trails & Security</h3>
+          <p>Maintain transparent shipment and cargo audit logs with real-time security alerts.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Risk Assessments</h3>
+          <p>Get real-time risk analysis for your cargo and transportation operations.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Policy Enforcement</h3>
+          <p>Customize and enforce compliance policies seamlessly across your logistics network.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Easy Integration</h3>
+          <p>Connect with your existing cloud infrastructure and logistics platforms effortlessly.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Intelligent Loadboard</h3>
+          <p>Go beyond listings with a loadboard that surfaces high-priority loads based on risk, regulatory fit, carrier behavior, and real-time route intelligence reducing deadhead miles and compliance exposure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Who is this for?</h2>
+      <p>Freight companies, shipping providers, trucking fleets, cargo handlers, and logistics enterprises focused on regulatory compliance and operational security.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Request Early Access</h2>
+      <form action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" method="POST" target="_blank" novalidate>
+        <label for="name">Full Name</label>
+        <input id="name" name="entry.1234567890" type="text" placeholder="Your full name" required />
+
+        <label for="email">Work Email</label>
+        <input id="email" name="entry.0987654321" type="email" placeholder="you@company.com" required />
+
+        <label for="organization">Organization</label>
+        <input id="organization" name="entry.1122334455" type="text" placeholder="Your company or fleet name" />
+
+        <label for="role">Job Role / Title</label>
+        <input id="role" name="entry.5566778899" type="text" placeholder="e.g. Fleet Manager, Compliance Officer" />
+
+        <label for="industry">Industry Segment</label>
+        <select id="industry" name="entry.3344556677" required>
+          <option value="" disabled selected>Select your segment</option>
+          <option value="Shipping">Shipping</option>
+          <option value="Cargo Handling">Cargo Handling</option>
+          <option value="Trucking / Freight">Trucking / Freight</option>
+          <option value="Logistics / Supply Chain">Logistics / Supply Chain</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="challenges">Main compliance or operational challenges</label>
+        <textarea id="challenges" name="entry.6677889900" placeholder="Briefly describe your challenges..."></textarea>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mudskipper • Privacy Policy • Terms of Service
+  </footer>
+</body>
+</html>
 
